@@ -84,6 +84,14 @@ order by platform ASC
 Our specific trade of `24,796,238.6881655` NPC tokens is worth `2,684.19` USD using the `ez_hourly_token_prices`
 for that token in that hour.
 
+| Field                        | Data                                                  |
+|------------------------------|-------------------------------------------------------|
+| HOUR                         | 2023-08-25 09:00:00.000                               |
+| TOKEN_ADDRESS                | 0x8ed97a637a790be1feff5e888d43629dc05408f6             |
+| SYMBOL                       | NPC                                                   |
+| PRICE                        | 0.00010825                                            |
+| OUR_SPECIFIC_TRADE_USD_VALUE | 2,684.19                                              |
+
 ```
 select 
 hour, token_address, symbol, price,
